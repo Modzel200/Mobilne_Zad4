@@ -15,7 +15,7 @@
 
 - (IBAction) enter {
     NSString *yourName = self.nameTextField.text;
-    NSString *myName = @"Lukasz";
+    NSString *myName = @"Kuba";
     
     if ([yourName length] == 0) {
         yourName = @"World";
